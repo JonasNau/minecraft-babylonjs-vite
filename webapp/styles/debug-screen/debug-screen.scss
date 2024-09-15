@@ -1,0 +1,19 @@
+body > .debug-screen {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	pointer-events: none;
+	overflow: auto;
+
+	[data-debug-screen-number="0"] {
+		[data-debug-element="input-controller"] {
+			width: 33%;
+			.content {
+				overflow: auto;
+				max-height: 100vh;
+				pointer-events: all;
+			}
+		}
+	}
+}

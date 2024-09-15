@@ -1,0 +1,16 @@
+{
+	"name": "Minecraft PWA",
+	"scope": "/",
+	"short_name": "MC PWA",
+	"start_url": "./pages/index.html",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#ffffff",
+	"icons": [
+		{
+			"src": "../media/images/favicon.ico",
+			"sizes": "64x64",
+			"type": "image/x-icon"
+		}
+	]
+}
